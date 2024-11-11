@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "简洁阅读模式",
+    "version": "1.0",
+    "description": "将网页转换为清晰简洁的阅读版本",
+    "permissions": ["activeTab", "scripting"],
+    "action": {
+      "default_popup": "popup/popup.html",
+      "default_icon": {
+        "32": "icons/icon.png",
+        "128": "icons/icon.png"
+      }
+    },
+    "icons": {
+      "32": "icons/icon.png",
+      "128": "icons/icon.png"
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "css": ["content/reader.css"],
+        "js": ["lib/Readability.js", "content/reader.js"]
+      }
+    ]
+  }

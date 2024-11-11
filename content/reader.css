@@ -1,0 +1,28 @@
+#clean-reader-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    line-height: 1.6;
+    background-color: #fff;
+  }
+  
+  .reader-content {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .reader-content h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .reader-content img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+  }
+  
+  .reader-content p {
+    margin: 1em 0;
+  }

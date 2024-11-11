@@ -1,0 +1,19 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect x="0" y="0" width="128" height="128" fill="#333333" rx="24"/>
+  
+  <!-- 文本图案 -->
+  <g fill="#F5F5F5">
+    <!-- 标题栏 -->
+    <rect x="24" y="24" width="80" height="12" rx="6"/>
+    
+    <!-- 文本行 -->
+    <rect x="24" y="48" width="80" height="6" rx="3"/>
+    <rect x="24" y="62" width="60" height="6" rx="3"/>
+    <rect x="24" y="76" width="70" height="6" rx="3"/>
+    <rect x="24" y="90" width="40" height="6" rx="3"/>
+  </g>
+  
+  <!-- 装饰线 -->
+  <rect x="24" y="108" width="20" height="4" fill="#4A90E2" rx="2"/>
+</svg>
